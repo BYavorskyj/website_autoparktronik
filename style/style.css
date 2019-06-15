@@ -1,0 +1,17 @@
+
+nav {
+    background-color: #ffdc00
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+    background-color: #ffdc00;
+}
+
+footer {
+    background-color: #333333;
+    height: 125px;
+}
