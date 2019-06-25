@@ -1,4 +1,10 @@
 
+.header {
+    background-image: url("../image/header_car_in_garage.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
 nav {
     background-color: #ffdc00
 }
