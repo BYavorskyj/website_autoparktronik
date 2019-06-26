@@ -1,22 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Autoparktronik</title>
+
+    <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/style.css">
 
 </head>
-<body>
 
+<body>
 <header>
     <nav>
-        <h1>AUTOSHOP</h1>
-        <p>МАГАЗИН АВТОЭЛЕКТРОНИКИ</p>
-        <p>(097) 963-01-48</p>
-        <button type="submit">Заказать звонок</button>
+        <div>
+            <h1><b>AUTO</b>SHOP</h1>
+            <p>МАГАЗИН АВТОЭЛЕКТРОНИКИ</p>
+        </div>
+        <div>
+            <p>(097) 963-01-48</p>
+            <button type="submit">Заказать звонок</button>
+        </div>
     </nav>
-    <div class="header">
-        <section>
+    <section class="header">
+        <div>
             <h2>ВИДЕОПАРТРОНИК - <br>
                 <span>АВТОНОВИНКА 2017</span> ГОДА</h2>
             <p><span>Закажите</span> видеопарктроник <br>
@@ -26,14 +32,14 @@
                 time
             </div>
             <button type="submit">ЗАКАЗАТЬ</button>
-        </section>
-        <section>
+        </div>
+        <div>
             <img src="./image/section_one_center_header.png" alt="mirror_in_avto">
             <img src="./image/section_footer_polyhedron_black.svg" alt="polyhedron_black">
             <span>6999 р.</span>
             <span>3999 р.</span>
-        </section>
-    </div>
+        </div>
+    </section>
 </header>
 
 <main>
@@ -319,13 +325,24 @@
         <hr class="yellow-break-line">
         <div>
             <div>
-                <img src="./image/section_seven_secure_shield.svg" alt="secure_shield">
+                <img src="./image/section_footer_airkid_car.svg" alt="secure_shield">
             </div>
             <div>
-                <img src="./image/section_seven_secure_shield.svg" alt="secure_shield">
+                <img src="./image/section_footer_mirror.svg" alt="secure_shield">
             </div>
         </div>
-        <button type="submit">ЗАКАЗАТЬ</button>
+        <div>
+            <form>
+                <input type="text" id="name" maxlength="99" autocomplete="on" name="login" placeholder="Введите имя"
+                       required>
+                <label for="name"></label>
+                <input type="tel" name="tel" id="tel" maxlength="13" autocomplete="on"
+                       placeholder="+7(___) ___ __ __" required> <label for="tel"></label>
+                <button type="submit">ЗАКАЗАТЬ</button>
+            </form>
+
+        </div>
+
     </section>
 </main>
 

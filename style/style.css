@@ -1,12 +1,21 @@
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
 
 .header {
     background-image: url("../image/header_car_in_garage.jpg");
     background-size: cover;
     height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 nav {
-    background-color: #ffdc00
+    background-color: #ffdc00;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 li {
