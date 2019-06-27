@@ -93,16 +93,18 @@ h1 b {
     color: #ffe74f;
 }
 
-.list:nth-child(2n+1) {
-    font-size: 16px;
-    font-weight: 400;
-}
-
 .list:nth-child(2n) {
     font-size: 14px;
     font-weight: 300;
     color: #9a9a9a;
 }
+
+.list:nth-child(2n+1) {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
 
 
 
