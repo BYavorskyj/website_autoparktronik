@@ -7,7 +7,18 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    opacity: 0.6;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 60%;
+    padding: 6%;
+}
+
+.onheader-img img {
+    height: 100%;
 }
 
 .flex {
@@ -15,12 +26,26 @@ body {
     justify-content: space-around;
 }
 
+.head-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+
+}
+
 .tittle h2 {
     height: 106px;
     color: #ffffff;
     font-size: 36px;
     font-weight: 700;
-    line-height: 72px;
     text-transform: uppercase;
 }
 
@@ -68,6 +93,13 @@ h1 b {
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.number p {
+    text-align: end;
 }
 
 .number button {
@@ -85,6 +117,10 @@ h1 b {
     margin: 1px auto;
 }
 
+.timer {
+    height: 20%;
+}
+
 .title {
     color: #333333;
     font-size: 24px;
@@ -92,6 +128,13 @@ h1 b {
     text-transform: uppercase;
     text-align: center;
     padding: 20px;
+}
+.button-header {
+    width: 297px;
+    height: 74px;
+    margin: 1px 1px;
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .title .yellow-text {
