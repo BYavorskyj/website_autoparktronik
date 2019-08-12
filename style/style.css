@@ -13,8 +13,8 @@ body {
 .flex {
     display: flex;
     justify-content: space-around;
-    align-items: center;
 }
+
 .tittle h2 {
     height: 106px;
     color: #ffffff;
@@ -41,7 +41,6 @@ body {
 }
 
 
-
 nav {
     background-color: #ffdc00;
     height: 105px;
@@ -52,21 +51,25 @@ h1 {
     line-height: 28px;
     font-weight: 300;
 }
+
 h1 b {
     font-weight: 700;
 }
+
 .head p {
     color: #6f6f6f;
     font-size: 14px;
     font-weight: 400;
     line-height: 28px;
 }
+
 .number {
     color: #333333;
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
 }
+
 .number button {
     width: 200px;
     height: 40px;
@@ -79,6 +82,7 @@ h1 b {
     border: none;
     text-decoration: none;
     cursor: pointer;
+    margin: 1px auto;
 }
 
 .title {
@@ -87,47 +91,83 @@ h1 b {
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
+    padding: 20px;
 }
 
 .title .yellow-text {
     color: #ffe74f;
 }
 
-.list:nth-child(2n) {
+.list > li:nth-child(2n), .complete-set {
     font-size: 14px;
     font-weight: 300;
     color: #9a9a9a;
 }
 
-.list:nth-child(2n+1) {
+.list > li:nth-child(2n+1), .flex .complete-set .complete {
     font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.yellow-break-line, .left-break-line {
+    border: none;
+    width: 250px;
+    height: 1px;
+    background-color: #ffdc00;
+}
+
+.left-break-line {
+    width: 49px;
+    margin-left: 35px;
+}
+
+.reason {
+    padding: 50px 10px 50px 40px;
+}
+
+.reason h3 {
+    color: #eccd0c;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.reason p {
+    color: #8b8b8b;
+    font-size: 14px;
     font-weight: 400;
 }
 
+.reviews p {
+    font-size: 14px;
+    font-weight: 300;
+}
 
+.reviews img {
+    border: 7px solid #ffe74f;
+}
 
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.delivery-and-guarantee {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 li {
     list-style-type: none;
+}
+
+.list li {
+    padding: 5px;
 }
 
 button {
@@ -138,10 +178,28 @@ button {
     border: none;
     text-decoration: none;
     cursor: pointer;
-    box-shadow: 0 5px 0 rgb(185,160,0);
+    box-shadow: 0 5px 0 rgb(185, 160, 0);
+    margin: 50px auto;
+    display: block;
 }
 
 footer {
     background-color: #333333;
     height: 125px;
+}
+
+
+@media all and (max-width: 800px) {
+    .header {
+        padding: 30px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: flex-start;
+    }
 }
