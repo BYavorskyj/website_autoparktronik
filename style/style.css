@@ -170,6 +170,15 @@ h1 b {
     margin-left: 35px;
 }
 
+.videoblock {
+    display: flex;
+    justify-content: center;
+}
+.videoblock img {
+    position: absolute;
+    padding: 116px;
+}
+
 .reason {
     padding: 50px 10px 50px 40px;
 }
