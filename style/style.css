@@ -129,6 +129,11 @@ h1 b {
     text-align: center;
     padding: 20px;
 }
+
+.title.center {
+    display: block;
+}
+
 .button-header {
     width: 297px;
     height: 74px;
