@@ -120,6 +120,7 @@ h1 b {
 
 .timer {
     height: 20%;
+    margin-left: -30px;
 }
 
 .title {
@@ -173,7 +174,7 @@ section {
 
 .left-break-line {
     width: 49px;
-    margin-left: 35px;
+    margin-left: 10%;
 }
 
 .videoblock {
@@ -244,13 +245,33 @@ section {
     border-radius: 50%;
 }
 
+.deliver {
+    margin: 40px;
+}
+
 .delivery-and-guarantee {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: flex-start;
+    padding-left: 30px;
 }
 
+.icons {
+    padding: 60px;
+}
+
+.icons div {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+h4 {
+    color: #ffe74f;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 20px;
+}
 
 li {
     list-style-type: none;
@@ -262,15 +283,35 @@ li {
 
 button {
     background-color: #ffdc00;
-    font-weight: 300;
     line-height: 28px;
     border-radius: 8px 8px 6px 6px;
     border: none;
     text-decoration: none;
     cursor: pointer;
-    box-shadow: 0 5px 0 rgb(185, 160, 0);
+    box-shadow: 0 2px 0 rgb(185, 160, 0);
     margin: 50px auto;
     display: block;
+    width: 298px;
+    height: 74px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.section-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-form form input {
+    margin-top: 20px;
+    height: 50px;
+    width: 300px;
+    font-size: 14px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
 }
 
 footer {
@@ -291,5 +332,43 @@ footer {
     .nav {
         display: flex;
         justify-content: flex-start;
+        min-width: 300px;
+        padding: 2rem;
     }
+    .header-container {
+        min-width: 300px;
+        padding: 2rem;
+    }
+    .onheader-img {
+        display: none;
+    }
+    img {
+        height: 30%;
+    }
+    .number {
+        display: none;
+    }
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    .flex {
+        flex-direction: column;
+        padding: 40px;
+    }
+    .adapt img {
+        height: auto;
+        max-width: 100%;
+        width: auto;
+    }
+    .videoblock img {
+        display: none;
+    }
+
+
+
 }

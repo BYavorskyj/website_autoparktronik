@@ -34,8 +34,8 @@
                 <img class="timer" src="./image/time.png" alt="clock">
                 <button class="button-header" type="submit">ЗАКАЗАТЬ</button>
             </div>
-            <div class="onheader-img">
-                <img src="./image/section_one_center_header.png" alt="mirror_in_avto">
+            <div class="onheader-img adapt">
+                <img src="./image/section_one_center_headers.png" alt="mirror_in_avto">
             </div>
         </div>
     </section>
@@ -210,12 +210,8 @@
                     Ремонт бампера стоит от <br>
                     <span>6000</span> <b>рублей</b>
                 </h3>
-                <div>
-                    <img src="./image/section_five_girl_in_car.jpg" alt="girl_in_car">
-                </div>
-                <div>
-                    <img src="./image/section_five_broken_car.jpg" alt="broken_car">
-                    <img src="./image/section_five_broken_car_second.jpg" alt="broken_car">
+                <div class="adapt">
+                    <img src="./image/small_five.jpg" alt="girl_in_car">
                 </div>
             </div>
             <div>
@@ -223,7 +219,7 @@
                     видеопарктроник с подарком стоит <br>
                     <b>ВСЕГО</b> <span>3990</span> <b>рублей</b>
                 </h3>
-                <div>
+                <div class="adapt">
                     <img src="./image/section_five_kid_mirror.png" alt="kid_mirror">
                 </div>
             </div>
@@ -262,7 +258,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="deliver">
         <h2 class="title center">ДОCТАВКА И ГАРАНТИИ</h2>
         <hr class="yellow-break-line">
         <div>
@@ -270,30 +266,29 @@
                 <h3>
                     ГАРАНТИЯ
                 </h3>
-
-                <ol>
+                <ul>
                     <li>Гарантия на изделие составляет 1 год.</li>
                     <li>Срок сервисного обслуживания составляет 2 года.</li>
                     <li>Если вы получили товар и он вам не понравился, мы гарантируем возврат или обмен в течение 14
                         дней.
                     </li>
-                </ol>
-                <span>Мы заботимся о своей репутации, клиенты для нас на первом месте!</span>
+                </ul>
+                <p>Мы заботимся о своей репутации, клиенты для нас на первом месте!</p>
             </div>
 
         </div>
-        <div class="flex">
+        <div class="flex icons">
             <div>
                 <img src="./image/section_seven_icon_package.svg" alt="icon_package">
-                <span>Оплата при получении</span>
+                <h4>Оплата при получении</h4>
             </div>
             <div>
                 <img src="./image/section_seven_secure_shield.svg" alt="secure_shield">
-                <span>2 года гарантии</span>
+                <h4>2 года гарантии</h4>
             </div>
             <div>
                 <img src="./image/section_seven_coins.svg" alt="coins">
-                <span>Возврат денег в течении 14 дней</span>
+                <h4>Возврат денег в течении 14 дней</h4>
             </div>
         </div>
         <article class="flex">
@@ -305,17 +300,18 @@
                     <li>Стоимость доставки зависит от Вашего региона-города</li>
                     <li>Доставка почтой РФ 1 классом от 300 руб. EMS Курьер от 600 руб.</li>
                     <li>Все заказы отправляем с описью вложения</li>
-                    <li>Сроки доставки от 3 до 7 дней.</li>
+                    <li>Сроки доставки <b>от 3 до 7 дней</b>.</li>
                     <li>Оплата производится при получении товара.</li>
                 </ol>
             </div>
             <div>
                 <h3>ДОСТАВКА И ОПЛАТА ПО МОСКВЕ И СПБ</h3>
                 <ol>
-                    <li>Курьером по Москве от 250 руб.</li>
+                    <li>Курьером по Москве <b>от 250 руб</b>.</li>
                     <li>Курьером по Санкт Петербургу от 200 руб.</li>
-                    <li>Сроки доставки 1-2 дня.</li>
-                    <li>Вы также можете забрать и оплатить свой заказ в пункте самовывоза. Стоимость 100 руб.</li>
+                    <li>Сроки доставки <b>1-2 дня</b>.</li>
+                    <li>Вы также можете забрать и оплатить свой заказ в пункте самовывоза. <b>Стоимость 100 руб</b>.
+                    </li>
                     <li>Ближайший к Вам адрес самовывоза уточняйте по телефону.</li>
                     <li>Оплата производится наличными при получении.</li>
                     <li>У Вам есть уникальная возможность вскрыть посылку до ее оплаты!</li>
@@ -331,21 +327,28 @@
         <div class="flex">
             <div>
                 <div>
-                    <img src="./image/section_footer_airkid_car.svg" alt="secure_shield">
-                </div>
-                <div>
-                    <img src="./image/section_footer_mirror.svg" alt="secure_shield">
+                    <img src="./image/section_footer_airkid_car.png" alt="secure_shield">
                 </div>
             </div>
-            <div>
-                <form>
-                    <input type="text" id="name" maxlength="99" autocomplete="on" name="login" placeholder="Введите имя"
-                           required>
-                    <label for="name"></label>
-                    <input type="tel" name="tel" id="tel" maxlength="13" autocomplete="on"
-                           placeholder="+7(___) ___ __ __" required> <label for="tel"></label>
-                    <button type="submit">ЗАКАЗАТЬ</button>
-                </form>
+            <div class="section-form">
+                <div>
+                    <form>
+                        <input type="text" id="name" maxlength="99" autocomplete="on" name="login" placeholder="Введите имя"
+                               required>
+                        <br>
+                        <label for="name"></label>
+                        <input type="tel" name="tel" id="tel" maxlength="13" autocomplete="on"
+                               placeholder="+7(___) ___ __ __" required> <label for="tel"></label>
+                    </form>
+                    <div class="adapt">
+                        <br>
+                        <img src="./image/timer_footer.png" alt="timer">
+                    </div>
+                    <div>
+                        <button type="submit">ЗАКАЗАТЬ</button>
+                    </div>
+                </div>
+
             </div>
         </div>
 
