@@ -18,9 +18,10 @@ body {
     padding: 6%;
 }
 
-.onheader-img img {
-    height: 100%;
-}
+/*.onheader-img img {*/
+/*    height: 100%;*/
+/*    display: block;*/
+/*}*/
 
 .flex {
     display: flex;
@@ -165,6 +166,10 @@ section {
     color: #333333;
 }
 
+.complete-set li {
+    margin: 2em 0;
+}
+
 .yellow-break-line, .left-break-line {
     border: none;
     width: 250px;
@@ -181,6 +186,7 @@ section {
     display: flex;
     justify-content: center;
 }
+
 .videoblock img {
     position: absolute;
     padding: 116px;
@@ -205,6 +211,7 @@ section {
 .reviews p {
     font-size: 14px;
     font-weight: 300;
+    line-height: 1.3em;
 }
 
 .reviews img {
@@ -281,6 +288,11 @@ li {
     padding: 5px;
 }
 
+.disc li {
+    list-style: disc;
+    margin: 1em 0;
+}
+
 button {
     background-color: #ffdc00;
     line-height: 28px;
@@ -335,40 +347,53 @@ footer {
         min-width: 300px;
         padding: 2rem;
     }
+
     .header-container {
         min-width: 300px;
         padding: 2rem;
+
     }
+
     .onheader-img {
         display: none;
     }
+
     img {
         height: 30%;
     }
+
     .number {
         display: none;
     }
+
     .title {
         display: flex;
         justify-content: center;
         align-items: center
     }
+
     h2 {
         font-size: 1.5em;
     }
+
     .flex {
         flex-direction: column;
         padding: 40px;
     }
+
     .adapt img {
         height: auto;
         max-width: 100%;
         width: auto;
     }
+
     .videoblock img {
         display: none;
     }
-
+    .centers {
+        font-size: 1.3rem;
+        text-align: center;
+    }
 
 
 }
